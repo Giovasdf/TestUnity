@@ -1,0 +1,307 @@
+{
+	"info": {
+		"name": "Laravel",
+		"_postman_id": "f4e49d70-a89e-a656-f293-97f515405211",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET USER LARAVEL",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8089/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"users"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE USER LARAVEL",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\n        \"name\": \"Andres\",\n        \"email\": \"giov.molina@gmail.com\",\n        \"password\": \"Andres\"\n       \n\n       \n    }"
+				},
+				"url": {
+					"raw": "http://localhost:8089/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"users"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "LOGIN USER LARAVEL",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\n        \"name\": \"Andres\",\n        \"password\": \"Andres\"\n        \n\n       \n    }"
+				},
+				"url": {
+					"raw": "http://localhost:8089/users/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"users",
+						"login"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET Scores LARAVEL",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "api_token",
+						"value": "xhapFc7offVjIHCILM8PmXIZ8ru56JZII16tynuXs8qg8Vlq8zGQmFQd8d3H"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8089/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"users"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Create Scores LARAVEL",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "api_token",
+						"value": "xhapFc7offVjIHCILM8PmXIZ8ru56JZII16tynuXs8qg8Vlq8zGQmFQd8d3H"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8089/scores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"scores"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Update GameConfig LARAVEL",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "api_token",
+						"value": "cTtWsCPUnUDjV08M608Ja5bimkkKuUUMn7VkeTy66OycR7FLfvwI9CNHNfgC"
+					},
+					{
+						"key": "id",
+						"value": "1",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8089/configUpdate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"configUpdate"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET GameConfig LARAVEL",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "api_token",
+						"value": "cTtWsCPUnUDjV08M608Ja5bimkkKuUUMn7VkeTy66OycR7FLfvwI9CNHNfgC"
+					},
+					{
+						"key": "id",
+						"value": "1",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n        \"PlayerSpeed\": \"880\",\n        \"durationTime\": \"Andrees,\n        \"PtosPerItem\": \"200\"\n    }"
+				},
+				"url": {
+					"raw": "http://localhost:8089/config",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"config"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Create GameConfig LARAVEL",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "api_token",
+						"value": "cTtWsCPUnUDjV08M608Ja5bimkkKuUUMn7VkeTy66OycR7FLfvwI9CNHNfgC"
+					},
+					{
+						"key": "id",
+						"value": "1",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n        \"PlayerSpeed\": \"880\",\n        \"durationTime\": \"8500\",\n        \"PtosPerItem\": \"200\"\n    }"
+				},
+				"url": {
+					"raw": "http://localhost:8089/config",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"config"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "delete GameConfig LARAVEL",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "api_token",
+						"value": "cTtWsCPUnUDjV08M608Ja5bimkkKuUUMn7VkeTy66OycR7FLfvwI9CNHNfgC"
+					},
+					{
+						"key": "id",
+						"value": "1",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":1\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8089/config",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"config"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

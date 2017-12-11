@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cettic Test", "Assembly-CSharp.csproj", "{E018A843-2EDD-7322-B573-FF85D963ABA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cettic Test", "Assembly-CSharp-Editor.csproj", "{8BFC349E-EDB0-AAC2-5C42-215556B58908}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E018A843-2EDD-7322-B573-FF85D963ABA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E018A843-2EDD-7322-B573-FF85D963ABA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E018A843-2EDD-7322-B573-FF85D963ABA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E018A843-2EDD-7322-B573-FF85D963ABA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BFC349E-EDB0-AAC2-5C42-215556B58908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFC349E-EDB0-AAC2-5C42-215556B58908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFC349E-EDB0-AAC2-5C42-215556B58908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFC349E-EDB0-AAC2-5C42-215556B58908}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
